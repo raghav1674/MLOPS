@@ -444,7 +444,7 @@ elif which_container =="cnn_dl":
 
 #### Create One extra job: for monitor : If container where app is running. fails due to any reason then this job should automatically start the container again from where the last trained model left
 
-
+<img src="https://github.com/raghav1674/MLOPS/blob/master/mlops%20great/build%20pipeline.PNG" height=300 width=300>
 
 
 
