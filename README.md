@@ -12,11 +12,50 @@ world by running systematic processes on raw data and selecting models that pull
 from the data – what is often referred to as “the signal in the noise.” Automated machine learning incorporates
 machine learning best practices from top-ranked data scientists to make data science more accessible across the organization.
 
+##### HYPER PARAMETERS:
+ 
+ What is a hyperparameter?
+
+A hyperparameter is a parameter that is set before the learning process begins. These parameters are tunable and can directly affect how well a model trains. Some examples of hyperparameters in machine learning:
+
+1.Learning Rate
+
+
+2.Number of Epochs
+
+3.Momentum
+
+4.Regularization constant
+
+
+5.Number of branches in a decision tree
+
+
+6.Number of clusters in a clustering algorithm (like k-means)
+
+
+
+
+### Optimizing Hyperparameters
+
+##### Hyperparameters can have a direct impact on the training of machine learning algorithms. Thus, in order to achieve maximal performance, it is important to understand how to optimize them. Here are some common strategies for optimizing hyperparameters:
+
+##### Grid Search: Search a set of manually predefined hyperparameters for the best performing hyperparameter. Use that value. (This is the traditional method)
+
+##### Random Search: Similar to grid search, but replaces the exhaustive search with random search. This can outperform grid search when only a small number of hyperparameters are needed to actually optimize the algorithm.
+
+##### Bayesian Optimization: Builds a probabilistic model of the function mapping from hyperparameter values to the target evaluated on a validation set. 
+
+##### Gradient-Based Optimization: Compute gradient using hyperparameters and then optimize hyperparameters using gradient descent.
+
+### Evolutionary Optimization
+
+: Uses evolutionary algorithms (e.g. genetic functions) to search the space of possible hyperparameters. 
 
 <img src="https://3gp10c1vpy442j63me73gy3s-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/Screen-Shot-2018-09-17-at-9.33.51-AM-e1537191346775-843x1024.png" height=700 width=600 align=center>
 
 
-1.	Create container image that’s has Python3 and Keras or numpy installed using dockerfile 
+#### 1.	Create container image that’s has Python3 and Keras or numpy installed using dockerfile 
 
 ##### SKLEARN ML DOCKERFILE (ON THE LEFT)                                                                   NN DOCKERFILE (ON  THE RIGHT)
 <img src="https://github.com/raghav1674/MLOPS/blob/master/mlops%20great/dockerfile%20ml.PNG" alt="mldockerfile" height=300 width=400><img src="https://github.com/raghav1674/MLOPS/blob/master/mlops%20great/dldockerfile.PNG" height=300 width=400 align=right>
