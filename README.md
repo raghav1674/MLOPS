@@ -13,4 +13,4 @@ from the data – what is often referred to as “the signal in the noise.” Au
 machine learning best practices from top-ranked data scientists to make data science more accessible across the organization.
 
 
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Fproduvia%2Fkryptos%2Fissues%2F114&psig=AOvVaw3gnooYXlmY3ZMwByKTZrFf&ust=1590581887934000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNDl27XB0ekCFQAAAAAdAAAAABAD" height=200 width=200>
+<img src="https://3gp10c1vpy442j63me73gy3s-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/Screen-Shot-2018-09-17-at-9.33.51-AM-e1537191346775-843x1024.png" height=200 width=200>
