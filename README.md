@@ -66,28 +66,61 @@ machine learning best practices from top-ranked data scientists to make data sci
   Feature scaling is a method used to normalize the range of independent variables or features of data. In data processing, it is         also known as data normalization and is generally performed during the data preprocessing step.
 
 
+  
+```python
+  toscale='from sklearn.preprocessing import StandardScaler\nsc=StandardScaler()\nX_train=sc.fit_transform(X_train)'
+
+X_test="X_test=sc.transform(X_test)"
+import sys
+from fileinput import *
+files=sys.argv[1]
+scaled=False
+with FileInput(files) as f:
+    for line in f:
+        if "Standard" in line:
+            scaled=True
+            break
+        else:
+            continue
+
+if scaled ==False:
+    with FileInput(files,inplace=True) as f:
+        for line in f:
+            #if "X_train,X_test,y_train,y_test=train_test_split"  in line:
+            if "X_train,X_test,y_train,y_test=train_test_split" in line:
+                print(line.replace(line,line.strip()+"\n"+toscale.strip()))
+
+            if "model.fit" in  line:
+                print(line.replace(line,line.strip()+"\n"+X_test.strip()))
+            else:
+               if "X_train,X_test,y_train,y_test=train_test_split" not in line:
+                print(line.strip())
+  
+ ```
+
+
 
 #### 2. ADDING DENSE LAYERS AND SETTING THE NUMBERS OF NEURONS (we can also alter the number of epochs):
       
   Dense layer is the regular deeply connected neural network layer. It is most common and frequently used layer. Dense layer does         the below operation on the input and return the output. output = activation(dot(input, kernel) + bias)
-  
-  ```python
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  ```
+```python
+
+
+
+
+```
 
 #### 3. ADDING THE CONVOLUTION LAYERS , SETTING THE NUMBER OF FILTERS, FILTER SIZE AND STRIDE RATE:
       
 
   <img src="https://miro.medium.com/max/654/1*hy15RJHCqT4HzO2VUydjTw.png" height=500  weight=300>
   
+  ```python
+  
+  
+  
+  
+  ```
   
   
        
