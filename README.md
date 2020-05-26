@@ -29,7 +29,7 @@ machine learning best practices from top-ranked data scientists to make data sci
 
 
         
-<img src="https://github.com/raghav1674/MLOPS/blob/master/mlops%20great/github.PNG" height=500 width=400 align=center>
+<img src="https://github.com/raghav1674/MLOPS/blob/master/mlops%20great/github.PNG" height=300 width=600 align=center>
 
 
 
