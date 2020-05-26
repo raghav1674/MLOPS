@@ -30,12 +30,5 @@ if count < 4:
                 print(line.replace(line,line+"\n"+lineadd.strip()))
             else:
                print(line.strip())
-else:
-    
-    with FileInput(files,inplace=True) as f:
 
-        for line in f:
-
-            if "model.fit" in line and "epochs" in line:
-                print(line.replace(line,"model.
 
