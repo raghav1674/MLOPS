@@ -70,11 +70,26 @@ machine learning best practices from top-ranked data scientists to make data sci
 #### 2. ADDING DENSE LAYERS AND SETTING THE NUMBERS OF NEURONS (we can also alter the number of epochs):
       
   Dense layer is the regular deeply connected neural network layer. It is most common and frequently used layer. Dense layer does         the below operation on the input and return the output. output = activation(dot(input, kernel) + bias)
+  
+  ```python
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ```
 
-#### 3. ADDING THE CONVOLUTION LAYERS , SETTING TH NUMBER OF FILTERS, FILTER SIZE AND STRIDE RATE:
+#### 3. ADDING THE CONVOLUTION LAYERS , SETTING THE NUMBER OF FILTERS, FILTER SIZE AND STRIDE RATE:
       
 
   <img src="https://miro.medium.com/max/654/1*hy15RJHCqT4HzO2VUydjTw.png" height=500  weight=300>
+  
+  
+  
        
        
        
