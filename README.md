@@ -18,5 +18,8 @@ machine learning best practices from top-ranked data scientists to make data sci
 
 1.	Create container image that’s has Python3 and Keras or numpy installed using dockerfile 
 
-##### SKLEARN ML DOCKERFILE (ON LEFT)              &NBSP;                                                       NN DOCKERFILE (ON RIGHT)
+##### SKLEARN ML DOCKERFILE (ON THE LEFT)                                                                   NN DOCKERFILE (ON  THE RIGHT)
 <img src="https://github.com/raghav1674/MLOPS/blob/master/mlops%20great/dockerfile%20ml.PNG" alt="mldockerfile" height=300 width=250><img src="https://github.com/raghav1674/MLOPS/blob/master/mlops%20great/dldockerfile.PNG" height=300 width=250 align=right>
+
+
+![REQUIREMENTSFILE](
