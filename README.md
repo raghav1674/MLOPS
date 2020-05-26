@@ -22,4 +22,4 @@ machine learning best practices from top-ranked data scientists to make data sci
 <img src="https://github.com/raghav1674/MLOPS/blob/master/mlops%20great/dockerfile%20ml.PNG" alt="mldockerfile" height=300 width=250><img src="https://github.com/raghav1674/MLOPS/blob/master/mlops%20great/dldockerfile.PNG" height=300 width=250 align=right>
 
 
-![REQUIREMENTSFILE](
+![REQUIREMENTSFILE](https)://github.com/raghav1674/MLOPS/blob/master/ml.txt)
