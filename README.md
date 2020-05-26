@@ -444,7 +444,7 @@ elif which_container =="cnn_dl":
 
 
 
-<img src="https://github.com/raghav1674/MLOPS/blob/master/WhatsApp%20Image%202020-05-26%20at%204.06.02%20PM.jpeg" width=300 height=600><img src="https://github.com/raghav1674/MLOPS/blob/master/WhatsApp%20Image%202020-05-26%20at%204.06.02%20PM.jpeg" width=300 height=600 align=right> 
+<img src="https://github.com/raghav1674/MLOPS/blob/master/WhatsApp%20Image%202020-05-26%20at%204.06.02%20PM.jpeg" width=300 height=600><img src="https://github.com/raghav1674/MLOPS/blob/master/WhatsApp%20Image%202020-05-26%20at%204.06.02%20PM%20(2).jpeg" width=300 height=600 align=right> 
 #### Create One extra job: for monitor : If container where app is running. fails due to any reason then this job should automatically start the container again from where the last trained model left
 
 <img src="https://github.com/raghav1674/MLOPS/blob/master/mlops%20great/build%20pipeline.PNG" height=400 width=900>
