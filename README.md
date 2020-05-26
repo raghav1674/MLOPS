@@ -13,4 +13,9 @@ from the data – what is often referred to as “the signal in the noise.” Au
 machine learning best practices from top-ranked data scientists to make data science more accessible across the organization.
 
 
-<img src="https://3gp10c1vpy442j63me73gy3s-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/Screen-Shot-2018-09-17-at-9.33.51-AM-e1537191346775-843x1024.png" height=200 width=200>
+<img src="https://3gp10c1vpy442j63me73gy3s-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/Screen-Shot-2018-09-17-at-9.33.51-AM-e1537191346775-843x1024.png" height=500 width=400>
+
+
+1.	Create container image that’s has Python3 and Keras or numpy installed using dockerfile 
+
+<img src=
