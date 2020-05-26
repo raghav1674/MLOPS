@@ -36,7 +36,8 @@ machine learning best practices from top-ranked data scientists to make data sci
 
 
 ### JOB2 :When we launch this image, it should automatically starts train the model in the container.
-      By looking at the code or program file, Jenkins should automatically start the respective machine learning software installed       interpreter install image container to deploy code and start training( eg. If code uses CNN, then Jenkins should start the container that has already installed all the softwares required for the cnn processing).
+      
+ By looking at the code or program file, Jenkins should automatically start the respective machine learning software installed       interpreter install image container to deploy code and start training( eg. If code uses CNN, then Jenkins should start the container that has already installed all the softwares required for the cnn processing).
       
       
       
@@ -61,17 +62,19 @@ machine learning best practices from top-ranked data scientists to make data sci
 ## Job4 : if metrics accuracy is less than 80% , then tweak the machine learning model architecture.   
       
 #### 1.FEATURE SCALING:
-      Feature scaling is a method used to normalize the range of independent variables or features of data. In data processing, it is         also known as data normalization and is generally performed during the data preprocessing step.
+      
+  Feature scaling is a method used to normalize the range of independent variables or features of data. In data processing, it is         also known as data normalization and is generally performed during the data preprocessing step.
 
 
 
 #### 2. ADDING DENSE LAYERS AND SETTING THE NUMBERS OF NEURONS (we can also alter the number of epochs):
-      Dense layer is the regular deeply connected neural network layer. It is most common and frequently used layer. Dense layer does         the below operation on the input and return the output. output = activation(dot(input, kernel) + bias)
+      
+  Dense layer is the regular deeply connected neural network layer. It is most common and frequently used layer. Dense layer does         the below operation on the input and return the output. output = activation(dot(input, kernel) + bias)
 
 #### 3. ADDING THE CONVOLUTION LAYERS , SETTING TH NUMBER OF FILTERS, FILTER SIZE AND STRIDE RATE:
       
 
-       <img src="https://miro.medium.com/max/654/1*hy15RJHCqT4HzO2VUydjTw.png" height=500 , weight=300>
+  <img src="https://miro.medium.com/max/654/1*hy15RJHCqT4HzO2VUydjTw.png" height=500 , weight=300>
        
        
        
