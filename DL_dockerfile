@@ -1,0 +1,19 @@
+
+FROM centos
+RUN mkdir /my_dlws
+WORKDIR my_dlws
+COPY ./dl.txt /my_dlws/requirements.txt
+RUN yum group install "Development Tools" -y
+RUN yum install man-pages -y
+RUN yum install coreutils --alloweraisng -y
+RUN yum install python3 -y
+RUN yum install python3-devel -y
+RUN yum install net-tools -y
+RUN yum install sudo -y
+RUN yum install openssh-clients -y
+RUN pip3 install --upgrade setuptools
+RUN pip3 install -r requirements.txt
+CMD python3 
+
+
+ 

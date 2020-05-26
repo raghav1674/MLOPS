@@ -24,4 +24,4 @@ from sklearn.metrics import r2_score
 print(r2_score(y_test.values,y_pred))
 
 #LinearRegression_salary_estimator.py
-#LinearRegression_salary_estimator.py#LinearRegression_salary_estimator.py#LinearRegression_salary_estimator.py#LinearRegression_salary_estimator.py#LinearRegression_salary_estimator.py
+#LinearRegression_salary_estimator.py#LinearRegression_salary_estimator.py
