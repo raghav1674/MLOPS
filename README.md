@@ -29,7 +29,7 @@ machine learning best practices from top-ranked data scientists to make data sci
 
 
         
-<img src="https://3gp10c1vpy442j63me73gy3s-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/Screen-Shot-2018-09-17-at-9.33.51-AM-e1537191346775-843x1024.png" height=500 width=400 align=center>
+<img src="https://github.com/raghav1674/MLOPS/blob/master/mlops%20great/github.PNG" height=500 width=400 align=center>
 
 
 
