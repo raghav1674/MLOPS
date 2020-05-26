@@ -1,0 +1,17 @@
+
+
+
+
+
+containers:
+- name: sklearn_ml 
+  image: raghav1674/ml-sklearn-py:v1    
+  location-of-Dockerfile: folder mlops
+  volume-to-be-mounted: traditional_ml
+  volume: my_mlws
+
+- name: cnn_dl
+  image: raghav1674/cnn-py:v1 
+  location-of-Dockerfile: folder dlops
+  volume-to-be-mounted: cnn_dl
+  volume: my_dlws
