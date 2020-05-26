@@ -1,6 +1,6 @@
-#MLOPS
 
 
+##MLOPS
 ### What is Automated Machine Learning?
 Automated machine learning (AutoML) represents a fundamental shift in the way organizations of all 
 sizes approach machine learning and data science. Applying traditional machine learning methods to 
@@ -22,4 +22,4 @@ machine learning best practices from top-ranked data scientists to make data sci
 
 
 
-<img src="https://github.com/raghav1674/MLOPS/blob/master/mlops%20great/dldockerfile.PNG" height=300 width=250>
+<img src="https://github.com/raghav1674/MLOPS/blob/master/mlops%20great/dldockerfile.PNG" height=300 width=250 align=right>
